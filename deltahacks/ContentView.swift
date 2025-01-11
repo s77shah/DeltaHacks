@@ -47,7 +47,7 @@ struct ContentView: View {
     }
     
   }
-    //this comment is for test
+    //this comment is for testing
   
   
   struct UserImage: View {
