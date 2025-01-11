@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		074ADB282D330A6D0031EA39 /* deltahacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB272D330A6D0031EA39 /* deltahacksApp.swift */; };
 		074ADB2A2D330A6D0031EA39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB292D330A6D0031EA39 /* ContentView.swift */; };
 		074ADB2C2D330A6F0031EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB2B2D330A6F0031EA39 /* Assets.xcassets */; };
 		074ADB2F2D330A6F0031EA39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB2E2D330A6F0031EA39 /* Preview Assets.xcassets */; };
 		074ADB392D330A6F0031EA39 /* deltahacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB382D330A6F0031EA39 /* deltahacksTests.swift */; };
 		074ADB432D330A700031EA39 /* deltahacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB422D330A700031EA39 /* deltahacksUITests.swift */; };
 		074ADB452D330A700031EA39 /* deltahacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB442D330A700031EA39 /* deltahacksUITestsLaunchTests.swift */; };
+		074ADB532D330AAD0031EA39 /* Auth0 in Frameworks */ = {isa = PBXBuildFile; productRef = 074ADB522D330AAD0031EA39 /* Auth0 */; };
+		074ADB572D3312CA0031EA39 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB562D3312CA0031EA39 /* Auth0.plist */; };
+		074ADB592D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB582D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift */; };
+		074ADB5B2D3315D80031EA39 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB5A2D3315D80031EA39 /* Profile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,7 +38,6 @@
 
 /* Begin PBXFileReference section */
 		074ADB242D330A6D0031EA39 /* deltahacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deltahacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		074ADB272D330A6D0031EA39 /* deltahacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksApp.swift; sourceTree = "<group>"; };
 		074ADB292D330A6D0031EA39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		074ADB2B2D330A6F0031EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		074ADB2E2D330A6F0031EA39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -44,6 +46,9 @@
 		074ADB3E2D330A6F0031EA39 /* deltahacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deltahacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		074ADB422D330A700031EA39 /* deltahacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksUITests.swift; sourceTree = "<group>"; };
 		074ADB442D330A700031EA39 /* deltahacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		074ADB562D3312CA0031EA39 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
+		074ADB582D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SwiftUI_LoginApp.swift; sourceTree = "<group>"; };
+		074ADB5A2D3315D80031EA39 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				074ADB532D330AAD0031EA39 /* Auth0 in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,10 +100,12 @@
 		074ADB262D330A6D0031EA39 /* deltahacks */ = {
 			isa = PBXGroup;
 			children = (
-				074ADB272D330A6D0031EA39 /* deltahacksApp.swift */,
 				074ADB292D330A6D0031EA39 /* ContentView.swift */,
+				074ADB582D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift */,
+				074ADB5A2D3315D80031EA39 /* Profile.swift */,
 				074ADB2B2D330A6F0031EA39 /* Assets.xcassets */,
 				074ADB2D2D330A6F0031EA39 /* Preview Content */,
+				074ADB562D3312CA0031EA39 /* Auth0.plist */,
 			);
 			path = deltahacks;
 			sourceTree = "<group>";
@@ -143,6 +151,9 @@
 			dependencies = (
 			);
 			name = deltahacks;
+			packageProductDependencies = (
+				074ADB522D330AAD0031EA39 /* Auth0 */,
+			);
 			productName = deltahacks;
 			productReference = 074ADB242D330A6D0031EA39 /* deltahacks.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +226,9 @@
 				Base,
 			);
 			mainGroup = 074ADB1B2D330A6C0031EA39;
+			packageReferences = (
+				074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */,
+			);
 			productRefGroup = 074ADB252D330A6D0031EA39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -232,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074ADB2F2D330A6F0031EA39 /* Preview Assets.xcassets in Resources */,
+				074ADB572D3312CA0031EA39 /* Auth0.plist in Resources */,
 				074ADB2C2D330A6F0031EA39 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,7 +273,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				074ADB2A2D330A6D0031EA39 /* ContentView.swift in Sources */,
-				074ADB282D330A6D0031EA39 /* deltahacksApp.swift in Sources */,
+				074ADB5B2D3315D80031EA39 /* Profile.swift in Sources */,
+				074ADB592D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -588,6 +604,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/auth0/Auth0.swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.10.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		074ADB522D330AAD0031EA39 /* Auth0 */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */;
+			productName = Auth0;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 074ADB1C2D330A6C0031EA39 /* Project object */;
 }
