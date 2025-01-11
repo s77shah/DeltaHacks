@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		074ADB282D330A6D0031EA39 /* deltahacksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB272D330A6D0031EA39 /* deltahacksApp.swift */; };
+		074ADB2A2D330A6D0031EA39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB292D330A6D0031EA39 /* ContentView.swift */; };
+		074ADB2C2D330A6F0031EA39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB2B2D330A6F0031EA39 /* Assets.xcassets */; };
+		074ADB2F2D330A6F0031EA39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB2E2D330A6F0031EA39 /* Preview Assets.xcassets */; };
+		074ADB392D330A6F0031EA39 /* deltahacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB382D330A6F0031EA39 /* deltahacksTests.swift */; };
+		074ADB432D330A700031EA39 /* deltahacksUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB422D330A700031EA39 /* deltahacksUITests.swift */; };
+		074ADB452D330A700031EA39 /* deltahacksUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB442D330A700031EA39 /* deltahacksUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		074ADB352D330A6F0031EA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074ADB1C2D330A6C0031EA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074ADB232D330A6D0031EA39;
+			remoteInfo = deltahacks;
+		};
+		074ADB3F2D330A6F0031EA39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 074ADB1C2D330A6C0031EA39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 074ADB232D330A6D0031EA39;
+			remoteInfo = deltahacks;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		074ADB242D330A6D0031EA39 /* deltahacks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = deltahacks.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		074ADB272D330A6D0031EA39 /* deltahacksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksApp.swift; sourceTree = "<group>"; };
+		074ADB292D330A6D0031EA39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		074ADB2B2D330A6F0031EA39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		074ADB2E2D330A6F0031EA39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		074ADB342D330A6F0031EA39 /* deltahacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deltahacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074ADB382D330A6F0031EA39 /* deltahacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksTests.swift; sourceTree = "<group>"; };
+		074ADB3E2D330A6F0031EA39 /* deltahacksUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = deltahacksUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		074ADB422D330A700031EA39 /* deltahacksUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksUITests.swift; sourceTree = "<group>"; };
+		074ADB442D330A700031EA39 /* deltahacksUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = deltahacksUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		074ADB212D330A6D0031EA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB312D330A6F0031EA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB3B2D330A6F0031EA39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		074ADB1B2D330A6C0031EA39 = {
+			isa = PBXGroup;
+			children = (
+				074ADB262D330A6D0031EA39 /* deltahacks */,
+				074ADB372D330A6F0031EA39 /* deltahacksTests */,
+				074ADB412D330A700031EA39 /* deltahacksUITests */,
+				074ADB252D330A6D0031EA39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		074ADB252D330A6D0031EA39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				074ADB242D330A6D0031EA39 /* deltahacks.app */,
+				074ADB342D330A6F0031EA39 /* deltahacksTests.xctest */,
+				074ADB3E2D330A6F0031EA39 /* deltahacksUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		074ADB262D330A6D0031EA39 /* deltahacks */ = {
+			isa = PBXGroup;
+			children = (
+				074ADB272D330A6D0031EA39 /* deltahacksApp.swift */,
+				074ADB292D330A6D0031EA39 /* ContentView.swift */,
+				074ADB2B2D330A6F0031EA39 /* Assets.xcassets */,
+				074ADB2D2D330A6F0031EA39 /* Preview Content */,
+			);
+			path = deltahacks;
+			sourceTree = "<group>";
+		};
+		074ADB2D2D330A6F0031EA39 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				074ADB2E2D330A6F0031EA39 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		074ADB372D330A6F0031EA39 /* deltahacksTests */ = {
+			isa = PBXGroup;
+			children = (
+				074ADB382D330A6F0031EA39 /* deltahacksTests.swift */,
+			);
+			path = deltahacksTests;
+			sourceTree = "<group>";
+		};
+		074ADB412D330A700031EA39 /* deltahacksUITests */ = {
+			isa = PBXGroup;
+			children = (
+				074ADB422D330A700031EA39 /* deltahacksUITests.swift */,
+				074ADB442D330A700031EA39 /* deltahacksUITestsLaunchTests.swift */,
+			);
+			path = deltahacksUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		074ADB232D330A6D0031EA39 /* deltahacks */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074ADB482D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacks" */;
+			buildPhases = (
+				074ADB202D330A6D0031EA39 /* Sources */,
+				074ADB212D330A6D0031EA39 /* Frameworks */,
+				074ADB222D330A6D0031EA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = deltahacks;
+			productName = deltahacks;
+			productReference = 074ADB242D330A6D0031EA39 /* deltahacks.app */;
+			productType = "com.apple.product-type.application";
+		};
+		074ADB332D330A6F0031EA39 /* deltahacksTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074ADB4B2D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacksTests" */;
+			buildPhases = (
+				074ADB302D330A6F0031EA39 /* Sources */,
+				074ADB312D330A6F0031EA39 /* Frameworks */,
+				074ADB322D330A6F0031EA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074ADB362D330A6F0031EA39 /* PBXTargetDependency */,
+			);
+			name = deltahacksTests;
+			productName = deltahacksTests;
+			productReference = 074ADB342D330A6F0031EA39 /* deltahacksTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		074ADB3D2D330A6F0031EA39 /* deltahacksUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 074ADB4E2D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacksUITests" */;
+			buildPhases = (
+				074ADB3A2D330A6F0031EA39 /* Sources */,
+				074ADB3B2D330A6F0031EA39 /* Frameworks */,
+				074ADB3C2D330A6F0031EA39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				074ADB402D330A6F0031EA39 /* PBXTargetDependency */,
+			);
+			name = deltahacksUITests;
+			productName = deltahacksUITests;
+			productReference = 074ADB3E2D330A6F0031EA39 /* deltahacksUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		074ADB1C2D330A6C0031EA39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					074ADB232D330A6D0031EA39 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					074ADB332D330A6F0031EA39 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 074ADB232D330A6D0031EA39;
+					};
+					074ADB3D2D330A6F0031EA39 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 074ADB232D330A6D0031EA39;
+					};
+				};
+			};
+			buildConfigurationList = 074ADB1F2D330A6C0031EA39 /* Build configuration list for PBXProject "deltahacks" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 074ADB1B2D330A6C0031EA39;
+			productRefGroup = 074ADB252D330A6D0031EA39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				074ADB232D330A6D0031EA39 /* deltahacks */,
+				074ADB332D330A6F0031EA39 /* deltahacksTests */,
+				074ADB3D2D330A6F0031EA39 /* deltahacksUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		074ADB222D330A6D0031EA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074ADB2F2D330A6F0031EA39 /* Preview Assets.xcassets in Resources */,
+				074ADB2C2D330A6F0031EA39 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB322D330A6F0031EA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB3C2D330A6F0031EA39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		074ADB202D330A6D0031EA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074ADB2A2D330A6D0031EA39 /* ContentView.swift in Sources */,
+				074ADB282D330A6D0031EA39 /* deltahacksApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB302D330A6F0031EA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074ADB392D330A6F0031EA39 /* deltahacksTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		074ADB3A2D330A6F0031EA39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				074ADB452D330A700031EA39 /* deltahacksUITestsLaunchTests.swift in Sources */,
+				074ADB432D330A700031EA39 /* deltahacksUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		074ADB362D330A6F0031EA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074ADB232D330A6D0031EA39 /* deltahacks */;
+			targetProxy = 074ADB352D330A6F0031EA39 /* PBXContainerItemProxy */;
+		};
+		074ADB402D330A6F0031EA39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 074ADB232D330A6D0031EA39 /* deltahacks */;
+			targetProxy = 074ADB3F2D330A6F0031EA39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		074ADB462D330A700031EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		074ADB472D330A700031EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		074ADB492D330A700031EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"deltahacks/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		074ADB4A2D330A700031EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"deltahacks/Preview Content\"";
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacks;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		074ADB4C2D330A700031EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deltahacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/deltahacks";
+			};
+			name = Debug;
+		};
+		074ADB4D2D330A700031EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacksTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/deltahacks.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/deltahacks";
+			};
+			name = Release;
+		};
+		074ADB4F2D330A700031EA39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = deltahacks;
+			};
+			name = Debug;
+		};
+		074ADB502D330A700031EA39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7Q86L3HY5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = EricYoon.deltahacksUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = deltahacks;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		074ADB1F2D330A6C0031EA39 /* Build configuration list for PBXProject "deltahacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074ADB462D330A700031EA39 /* Debug */,
+				074ADB472D330A700031EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074ADB482D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacks" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074ADB492D330A700031EA39 /* Debug */,
+				074ADB4A2D330A700031EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074ADB4B2D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacksTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074ADB4C2D330A700031EA39 /* Debug */,
+				074ADB4D2D330A700031EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		074ADB4E2D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacksUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				074ADB4F2D330A700031EA39 /* Debug */,
+				074ADB502D330A700031EA39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 074ADB1C2D330A6C0031EA39 /* Project object */;
+}
