@@ -20,7 +20,7 @@ let package = Package(
             teamIdentifier: "84RBJML6H3",
             displayVersion: "1.0",
             bundleVersion: "1",
-            appIcon: .placeholder(icon: .flower),
+            appIcon: .placeholder(icon: .bunny),
             accentColor: .presetColor(.green),
             supportedDeviceFamilies: [
                 .pad,
@@ -31,7 +31,8 @@ let package = Package(
                 .landscapeRight,
                 .landscapeLeft,
                 .portraitUpsideDown(.when(deviceFamilies: [.pad]))
-            ]
+            ],
+            appCategory: .socialNetworking
         )
     ],
     targets: [
@@ -40,5 +41,5 @@ let package = Package(
             path: "."
         )
     ],
-    swiftLanguageVersions: [.v6]
+    swiftLanguageVersions: [.version("6")]
 )

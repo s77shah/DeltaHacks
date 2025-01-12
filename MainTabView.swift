@@ -31,5 +31,6 @@ struct MainTabView: View {
                     Label("Profile", systemImage: "person")
                 }
         }
+        .background(Color.backgroundGreen)
     }
 }
