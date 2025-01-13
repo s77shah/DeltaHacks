@@ -1,8 +1,0 @@
-{
-	CFBundleIdentifier = "";
-	CFBundleExecutable = "";
-	"NSPhotoLibraryUsageDescription" = "We need access to your photo library to upload food photos.";
-	UIAppFonts = (
-		"Oranienbaum-Regular.ttf",
-	);
-}

@@ -1,2 +1,0 @@
-# DeltaHacks
-DeltaHacks Nutrition App 
