@@ -17,6 +17,7 @@
 		074ADB572D3312CA0031EA39 /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 074ADB562D3312CA0031EA39 /* Auth0.plist */; };
 		074ADB592D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB582D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift */; };
 		074ADB5B2D3315D80031EA39 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074ADB5A2D3315D80031EA39 /* Profile.swift */; };
+		567EF8DA688792D0D1B8F721 /* Pods_deltahacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E01BE293373D115585EAA4C1 /* Pods_deltahacks.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,9 @@
 		074ADB562D3312CA0031EA39 /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		074ADB582D3315B00031EA39 /* iOS_SwiftUI_LoginApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iOS_SwiftUI_LoginApp.swift; sourceTree = "<group>"; };
 		074ADB5A2D3315D80031EA39 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		2077CB20AEE7E36CFE201708 /* Pods-deltahacks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deltahacks.debug.xcconfig"; path = "Target Support Files/Pods-deltahacks/Pods-deltahacks.debug.xcconfig"; sourceTree = "<group>"; };
+		8FE691487BDE473B37CAAC95 /* Pods-deltahacks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-deltahacks.release.xcconfig"; path = "Target Support Files/Pods-deltahacks/Pods-deltahacks.release.xcconfig"; sourceTree = "<group>"; };
+		E01BE293373D115585EAA4C1 /* Pods_deltahacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_deltahacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +61,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				074ADB532D330AAD0031EA39 /* Auth0 in Frameworks */,
+				567EF8DA688792D0D1B8F721 /* Pods_deltahacks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +89,8 @@
 				074ADB372D330A6F0031EA39 /* deltahacksTests */,
 				074ADB412D330A700031EA39 /* deltahacksUITests */,
 				074ADB252D330A6D0031EA39 /* Products */,
+				37C7F9F54ECE07E01F708A2C /* Pods */,
+				F672251A53E63695AC9CF775 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,6 +142,24 @@
 			path = deltahacksUITests;
 			sourceTree = "<group>";
 		};
+		37C7F9F54ECE07E01F708A2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2077CB20AEE7E36CFE201708 /* Pods-deltahacks.debug.xcconfig */,
+				8FE691487BDE473B37CAAC95 /* Pods-deltahacks.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F672251A53E63695AC9CF775 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E01BE293373D115585EAA4C1 /* Pods_deltahacks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -142,9 +167,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 074ADB482D330A700031EA39 /* Build configuration list for PBXNativeTarget "deltahacks" */;
 			buildPhases = (
+				70EDC3983E0056D3D6BC1B22 /* [CP] Check Pods Manifest.lock */,
 				074ADB202D330A6D0031EA39 /* Sources */,
 				074ADB212D330A6D0031EA39 /* Frameworks */,
 				074ADB222D330A6D0031EA39 /* Resources */,
+				A13B61E3DDBB1717C01562FE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -227,7 +254,7 @@
 			);
 			mainGroup = 074ADB1B2D330A6C0031EA39;
 			packageReferences = (
-				074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */,
+				074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0.swift" */,
 			);
 			productRefGroup = 074ADB252D330A6D0031EA39 /* Products */;
 			projectDirPath = "";
@@ -266,6 +293,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		70EDC3983E0056D3D6BC1B22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-deltahacks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A13B61E3DDBB1717C01562FE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-deltahacks/Pods-deltahacks-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-deltahacks/Pods-deltahacks-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-deltahacks/Pods-deltahacks-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		074ADB202D330A6D0031EA39 /* Sources */ = {
@@ -432,6 +501,7 @@
 		};
 		074ADB492D330A700031EA39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2077CB20AEE7E36CFE201708 /* Pods-deltahacks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -461,6 +531,7 @@
 		};
 		074ADB4A2D330A700031EA39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE691487BDE473B37CAAC95 /* Pods-deltahacks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -606,7 +677,7 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */ = {
+		074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0.swift" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/auth0/Auth0.swift";
 			requirement = {
@@ -619,7 +690,7 @@
 /* Begin XCSwiftPackageProductDependency section */
 		074ADB522D330AAD0031EA39 /* Auth0 */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0" */;
+			package = 074ADB512D330A990031EA39 /* XCRemoteSwiftPackageReference "Auth0.swift" */;
 			productName = Auth0;
 		};
 /* End XCSwiftPackageProductDependency section */
